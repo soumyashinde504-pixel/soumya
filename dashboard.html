@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard - Smart Agriculture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+
+    <h2>Smart Agriculture</h2>
+
+    <div>
+        <a href="home.html" class="nav-link">Home</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+</div>
+
+<div class="dashboard">
+
+    <h1>Dashboard</h1>
+    <p id="dashboardWelcome"></p>
+
+    <div class="dashboard-cards">
+
+        <div class="dashboard-card">
+            <h3>🌾 Crops</h3>
+            <h2>10</h2>
+            <p>Total Crops</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>🌧 Weather</h3>
+            <h2>28°C</h2>
+            <p>Current Temperature</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>💧 Soil</h3>
+            <h2>65%</h2>
+            <p>Soil Moisture</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>📊 Yield</h3>
+            <h2>85%</h2>
+            <p>Expected Yield</p>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
